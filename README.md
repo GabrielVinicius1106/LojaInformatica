@@ -63,6 +63,12 @@ Primeiramente, instale as dependências **compilador de C** e **git**, e depois 
 git clone https://github.com/GabrielVinicius1106/loja-informatica/
 ```
 
+Abra o projeto:
+
+```bash
+cd ./loja-informatica
+```
+
 Para compilar todos os arquivos juntos:
 
 ```bash

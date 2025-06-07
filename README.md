@@ -1,4 +1,4 @@
-# 🖥️ Projeto - Loja de Informática (Terminal em C)
+# 🖥️ Projeto - Loja de Informática em C (terminal)
 
 Este é um sistema de vendas simples de uma loja de informática, desenvolvido em linguagem C para rodar no terminal. Ele permite ao usuário simular a compra de componentes de hardware, montar um carrinho, inserir dados pessoais e fechar um pedido com cálculo de descontos e frete.
 

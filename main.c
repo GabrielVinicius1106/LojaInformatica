@@ -15,17 +15,6 @@ struct ItemCarrinho {
     int quantidadeItens; 
 };
 
-
-void delay(int milliseconds) {
-    #ifdef _WIN32
-        #include <windows.h>
-        Sleep(milliseconds);    
-    #else
-        #include <unistd.h>
-        usleep(milliseconds * 1000);
-    #endif
-}
-
 void exibirInformacao() {
 
     system("clear || cls");
@@ -34,22 +23,6 @@ void exibirInformacao() {
     printf ("\n **           SUAS INFORMACOES           **\n");
     printf (" ******************************************\n");
 
-}
-
-void loading(char *message){
-
-    for (int i = 0; i < 3; i++){
-        system("clear || cls");
-        printf(" %s. \n", message);
-        delay(250);
-        system("clear || cls");
-        printf(" %s.. \n", message);
-        delay(250);
-        system("clear || cls");
-        printf(" %s... \n", message);
-        delay(250);
-        system("clear || cls");
-    }
 }
 
 int main() {
@@ -121,8 +94,8 @@ int main() {
         system("clear || cls");
 
         if (option == 8){
-            loading("Encerrando");
-            printf("Ate mais!\n\n");
+            system("clear || cls");
+            printf("\n Ate mais!\n\n");
             break;
         } else {
             switch(option){
